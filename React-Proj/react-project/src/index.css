@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-sky-600{
+    background-color: #7E33E0;
+}
+@layer components{
+    .conatiner{ 
+        @apply px-3  w-full 
+    }
+}
