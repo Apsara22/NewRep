@@ -1,15 +1,14 @@
-import { CiMail } from "react-icons/ci";
-import Image from "./assets/Images/first.jpg"
+// import { CiMail } from "react-icons/ci";
+// import Image from "./assets/Images/first.jpg"
+// import Home from "./components/Home"
 function App() {
 
   return (
     <>
-     <header className="bg-[#7E33E0] text-white p-3 pl-[314px] flex">
-      <div className="conatiner">
+     {/* <header className="bg-[#7E33E0] text-white p-1 pl-[314px] flex">
+      
 
-      <p className="mr-12"><CiMail/> &nbsp;apsarapaneru@gmail.com</p>
-      <p className="mr[404px]" ><span>+977 9887655</span></p>
-      </div>
+      <CiMail className="h-8"/> &nbsp;apsarapaneru@gmail.com &nbsp;<CiMail className="h-8"/> +977643587
       
       <div className="mr-[444px]">
         <ul className="flex space-x-9">
@@ -30,16 +29,24 @@ function App() {
         <li>Blog</li>
         <li>Shopping</li>
         </ul></nav>
-        <div className="">
-        <div className="h-screen track border-2 border-blue-70 h-30 w-30">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptas nisi sunt enim. Ullam iste praesentium nesciunt,
-         iure corporis deleniti maxime hic labore sit veniam autem molestias atque quos rem.
-         </div>
-         <img src={Image} alt=""  className="h-100px w-100px"/>
-         <img src={Image} alt=""  className="h-100px w-100px"/>
-         <img src={Image} alt=""  className="h-100px w-100px"/>
-         <img src={Image} alt=""  className="h-100px w-100px"/>
-
-        </div>
+        <body>
+          <div className=" font-bold text-2xl text-pink outline-4 outline-slate-500">
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque esse quod voluptatem iure cumque quaerat reprehenderit officia velit error sequi doloremque ratione dolor sed, 
+          iusto eveniet voluptate architecto reiciendis veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quaerat ipsum reiciendis amet doloremque perferendis perspiciatis dolores, eligendi,
+           doloribus autem reprehenderit consequuntur laudantium natus odit laboriosam sit temporibus at aliquam.
+          </p>
+          </div>
+          <div>
+            <ul><li>Products</li></ul>
+            <ul><li>Products</li></ul>
+            <ul><li>Products</li></ul>
+            <ul><li>Products</li></ul>
+            <ul><li>Products</li></ul>
+            <ul><li>Products</li></ul>
+          </div> */}
+ 
+          {/* <Home/> */}
+       
     </>
     
   )

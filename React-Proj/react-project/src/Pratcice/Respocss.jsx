@@ -1,14 +1,15 @@
-import React from 'react';
+import  { useState } from 'react';
+import Home from '../components/Home';
 
 
 export default function Respocss(){
+    const[count,SetCount] = useState(0)
     return(
-        <div>
-            <img src="{./images/first.jpg}" alt="" />
-            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, autem dolorem consequuntur inventore odit ipsam itaque vel deleniti magnam assumenda incidunt voluptates dolores quibusdam eligendi
-                 aliquam molestias sed repudiandae possimus.
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nisi ut quis quia nemo a tempora necessitatibus error sint, deleniti accusantium tenetur expedita corrupti
-                  quisquam sapiente quidem autem. Dolore, itaque.</div>
+
+        <div className="App">
+        <Home/>
+        <div className='w-full h-screen'></div>
+
         </div>
     )
 }
